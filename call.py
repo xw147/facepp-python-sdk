@@ -29,10 +29,10 @@ api = API()
 # -----------------------------------------------------------人脸识别部分-------------------------------------------
 
 # 人脸检测：https://console.faceplusplus.com.cn/documents/4888373
-res = api.detect(image_url=detech_img_url, return_attributes="gender,age,smiling,headpose,facequality,"
-                                                       "blur,eyestatus,emotion,ethnicity,beauty,"
-                                                       "mouthstatus,skinstatus")
-print_result(printFuctionTitle("人脸检测"), res)
+#res = api.detect(image_url=detech_img_url, return_attributes="gender,age,smiling,headpose,facequality,"
+#                                                        "blur,eyestatus,emotion,ethnicity,beauty,"
+#                                                        "mouthstatus,skinstatus")
+#print_result(printFuctionTitle("人脸检测"), res)
 
 
 # 人脸比对：https://console.faceplusplus.com.cn/documents/4887586
