@@ -26,16 +26,7 @@ __all__ = ['File', 'APIError', 'API']
 DEBUG_LEVEL = 1
 
 # 添加API Key API Secret
-# CN key 1: username: benmao
-# API_KEY = "D4Phv-fvrLY9K_BNSBecYgMca6NNRfTp"
-# API_SECRET = "tqJhMDHI09g5eS6mYa3Kh1f3x78pQjAf"
 
-# CN key2: username: face147 psw: facehahaha
-API_KEY = 'jGTxn864oG0xrC_J2gqnEtnGoMqDspTv'
-API_SECRET ='JOjofO4bVNH7bT_40pV8IN5YH3zQXsTB'
-# US key - does not work
-# API_KEY = "K7Y4HwlsHoXr-RvpFGdB1V-ZddAirI-1"
-# API_SECRET = "kSoo1mTHEeEWhao3iLXwsrgQsSEF9wr4"
 
 
 class File(object):
